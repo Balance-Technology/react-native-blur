@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import {
   View,
   requireNativeComponent,
-  ViewPropTypes,
   StyleSheet,
 } from 'react-native';
+import  {ViewPropTypes} from 'deprecated-react-native-prop-types'
 
 class BlurView extends Component {
   setNativeProps = (nativeProps) => {
